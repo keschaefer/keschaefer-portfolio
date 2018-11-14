@@ -10,6 +10,14 @@
   display: flex;
 }
 
+.menu a {
+  margin: 1em;
+}
+.profile-image img{
+  border-radius: 50%;
+  width: 15em;
+}
+
 .project-container {
   border: 1px solid grey;
   height: 5em;
