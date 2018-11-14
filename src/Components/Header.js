@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
    return (
-      <div className= "header">
+      <div className= "header section">
          <h3>Kate Schaefer</h3>
          <div className= "menu">
             <a href= "">Home</a>

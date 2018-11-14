@@ -9,14 +9,15 @@ import Title from './Components/Title.js';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header/>
-        
-        <Title />
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
+      <div className= "App">
+        <div className= "body">
+          <Header/>
+          <Title />
+          <About />
+          <Projects />
+          <Contact />
+          <Footer />
+        </div>
       </div>
     );
   }
