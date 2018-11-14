@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import './App.css';
-import Header from './Header';
-import About from './About.js';
-import Contact from './Contact.js';
-import Projects from './Projects.js';
-import Footer from './Footer.js';
-import Title from './Title.js';
-
+import Header from './Components/Header';
+import About from './Components/About.js';
+import Contact from './Components/Contact.js';
+import Projects from './Components/Projects.js';
+import Footer from './Components/Footer.js';
+import Title from './Components/Title.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header/>
+        
         <Title />
         <About />
         <Projects />

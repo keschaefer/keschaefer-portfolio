@@ -2,6 +2,14 @@
   margin: 15%;
 }
 
+.header {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+}
+
 .project-container {
   border: 1px solid grey;
   height: 5em;

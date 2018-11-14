@@ -8,4 +8,4 @@ const Title = () => {
       </div>   
    )
 }
-export default Header
+export default Title

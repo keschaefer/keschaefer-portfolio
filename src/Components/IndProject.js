@@ -3,7 +3,7 @@ import React from 'react';
 const IndProject = () => {
    return (
       <div>
-         <div class = 'projet-container'>
+         <div class = 'project-container'>
             <p>Project 1</p>
          </div>
       </div>
