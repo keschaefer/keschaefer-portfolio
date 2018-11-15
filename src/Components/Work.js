@@ -1,11 +1,13 @@
 import React from 'react';
 import IndProject from './IndProject.js';
 
-const Work = () => {
+const Work = (props) => {
    return (
       <div>
          <h1>Work</h1>
-         <IndProject/>
+         <div className= "projects-container">
+            <IndProject projects = {props.projects}/>
+         </div>
       </div>   
    )
 }

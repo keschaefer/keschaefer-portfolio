@@ -14,34 +14,34 @@ class App extends Component {
           {
           "title": "Denver Doggie",
           "description": "Site that clues Denver dog owners in on where their pup is welcome",
-          "tech-used": "Express, Node.js, JavaScript, React",
+          "techused": "Express, Node.js, JavaScript, React",
           "image": "https://snag.gy/kFOJwG.jpg",
-          "git-hub": "https://github.com/keschaefer/denver-doggie",
-          "live-site":,
+          "github": "https://github.com/keschaefer/denver-doggie",
+          "livesite": "www.test.com",
         },
         {
           "title": "g-school Inbox",
           "description": "Basic gmail-style inbox utilizing a school provided API",
-          "tech-used": "React, JavaScript, AJAX, Bootstrap",
+          "techused": "React, JavaScript, AJAX, Bootstrap",
           "image": "https://snag.gy/Nhwdf5.jpg",
-          "git-hub": "https://github.com/keschaefer/inbox-react-app",
-          "live-site":"http://inbox-app-gschool.surge.sh/",
+          "github": "https://github.com/keschaefer/inbox-react-app",
+          "livesite":"http://inbox-app-gschool.surge.sh/",
         },
         {
           "title": "g-Food Delivers" ,
           "description": "Basic online food ordering App.",
-          "tech-used": "Javascript, AJAX, HTML, CSS",
+          "techused": "Javascript, AJAX, HTML, CSS",
           "image": "https://snag.gy/tBCreg.jpg",
-          "git-hub": "https://github.com/keschaefer/g-food-Delivers",
-          "live-site": "http://g-foodeats-keschaefer.surge.sh/",
+          "github": "https://github.com/keschaefer/g-food-Delivers",
+          "livesite": "http://g-foodeats-keschaefer.surge.sh/",
         },
         {
           "title": "Pixel Art Maker",
           "description": "Create your own pixel art!",
-          "tech-used": "Javascript, HTML, CSS" ,
+          "techused": "Javascript, HTML, CSS" ,
           "image": "https://snag.gy/XAzGRQ.jpg",
-          "git-hub": "https://github.com/keschaefer/pixel-art-maker-public",
-          "live-site": "http://keschaefer-pixel-art.surge.sh/"
+          "github": "https://github.com/keschaefer/pixel-art-maker-public",
+          "livesite": "http://keschaefer-pixel-art.surge.sh/"
         },
       ]
       }
@@ -54,7 +54,7 @@ class App extends Component {
           <Header/>
           <Title />
           <About />
-          <Work />
+          <Work projects = {this.state.projects} />
           <Contact />
           <Footer />
         </div>
