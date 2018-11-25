@@ -5,6 +5,8 @@ import Contact from './Components/Contact.js';
 import Work from './Components/Work.js';
 import Footer from './Components/Footer.js';
 import Title from './Components/Title.js';
+import Placeholder from './Components/Placeholder.js';
+
 
 class App extends Component {
   constructor() {
@@ -53,8 +55,11 @@ class App extends Component {
         <div className= "body">
           <Header/>
           <Title />
+          <Placeholder />
           <About />
+          <Placeholder />
           <Work projects = {this.state.projects} />
+          <Placeholder />
           <Contact />
           <Footer />
         </div>

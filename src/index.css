@@ -1,10 +1,10 @@
 .App{
-  background-color: #D7EFF1;
+  /* background-color: #D7EFF1; */
 }
 
 .body {
-  margin-left: 15%;
-  margin-right: 15%;
+  /* margin-left: 15%;
+  margin-right: 15%; */
   padding: 2em;
   font-family: 'Raleway', sans-serif;
   background-color:white;
@@ -30,10 +30,37 @@ h2 {
   margin: 1em;
 }
 
+.title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7em;
+  margin-bottom: 7em;
+}
+
+.about-section {
+  color: white;
+  margin: 15%;  
+}
+
+.placeholder-section {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
 .profile-image img, .ind-project img{
   border-radius: 50%;
   width: 15em;
   margin: 2em;
+}
+
+.work-section {
+  margin: 15%;
+}
+
+.work-section h1 {
+  color: white;
 }
 
 .ind-project {

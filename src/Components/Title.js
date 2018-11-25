@@ -2,7 +2,7 @@ import React from 'react';
 
 const Title = () => {
    return (
-      <div className= "section"> 
+      <div className= "title-section"> 
          <h1>Kate Schaefer</h1>
          <h2>Full Stack Web Developer</h2>
          <div className= "profile-image">
