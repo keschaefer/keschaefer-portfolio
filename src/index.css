@@ -1,13 +1,41 @@
 .App{
   /* background-color: #D7EFF1; */
+ 
 }
 
 .body {
-  /* margin-left: 15%;
-  margin-right: 15%; */
-  padding: 2em;
   font-family: 'Raleway', sans-serif;
-  background-color:white;
+  /* background-color: #fffaf0;
+  background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png"); */
+}
+
+a:link { 
+  color: #333333; 
+}
+
+a​:active { 
+  color: #333333; 
+}
+
+a:visited {
+  color: #333333;
+}
+
+a:hover { 
+  color: #2d5986; 
+}
+
+.header {
+  display: flex;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  /* justify-content: flex-end; */
+  background-color: #fffaf0;
+  background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+}
+
+.menu a {
+  margin: 1em;
 }
 
 h1 {
@@ -18,24 +46,18 @@ h2 {
   font-size: 24px;
 }
 
-.header {
-  display: flex;
-}
-
-.menu {
-  display: flex;
-}
-
-.menu a {
-  margin: 1em;
-}
-
 .title-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 7em;
-  margin-bottom: 7em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.profile-image img {
+  border-radius: 50%;
+  width: 18em;
+  margin: 2em;
 }
 
 .about-section {
@@ -49,7 +71,7 @@ h2 {
   margin-bottom: 3em;
 }
 
-.profile-image img, .ind-project img{
+.ind-project img{
   border-radius: 50%;
   width: 15em;
   margin: 2em;

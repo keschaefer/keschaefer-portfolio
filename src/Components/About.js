@@ -6,9 +6,9 @@ const image1 = "https://images.pexels.com/photos/161863/edinburgh-carlton-hill-l
 const About = () => {
    return (
       <Parallax
-             bgImage= {image1} strength= {500}>
+             bgImage= {image1} strength= {700}>
              <div style={{height:500}}> 
-      <div className= "about-section">
+      <div className= "about-section" id="about">
          <h1>About</h1>
          <div className= "background">
             <h2>Background</h2>
