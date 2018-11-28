@@ -42,6 +42,11 @@ class App extends Component {
           </Parallax>
           <About />
           <Placeholder />
+          <Parallax
+             bgImage= {this.state.image2} strength= {700}>
+             <div style={{height: 500}}>
+             </div>
+          </Parallax>   
           <Work projects = {this.state.projects} />
           <Placeholder />
           <Contact />
