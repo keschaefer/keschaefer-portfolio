@@ -5,9 +5,6 @@ const image1 = "https://images.pexels.com/photos/161863/edinburgh-carlton-hill-l
 
 const About = () => {
    return (
-      <Parallax
-             bgImage= {image1} strength= {700}>
-             <div style={{height:500}}> 
       <div className= "about-section" id="about">
          <h1>About</h1>
          <div className= "background">
@@ -25,8 +22,6 @@ const About = () => {
             <p>Why choose me to be part of your engineering team? Quite simply I am....</p>
          </div>
       </div>
-      </div>
-   </Parallax> 
    )
 }
 

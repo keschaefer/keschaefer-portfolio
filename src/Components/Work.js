@@ -2,7 +2,7 @@ import React from 'react';
 import IndProject from './IndProject.js';
 import { Parallax } from 'react-parallax'; 
 
-const image1 = "https://images.pexels.com/photos/1169107/pexels-photo-1169107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+const image1 = "https://images.pexels.com/photos/34077/pexels-photo.jpg?cs=srgb&dl=big-ben-black-and-white-bridge-34077.jpg&fm=jpg"
 
 const Work = (props) => {
    return (
