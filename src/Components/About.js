@@ -1,7 +1,4 @@
 import React from 'react';
-import { Parallax } from 'react-parallax'; 
-
-const image1 = "https://images.pexels.com/photos/161863/edinburgh-carlton-hill-landscape-scotland-161863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
 
 const About = () => {
    return (
