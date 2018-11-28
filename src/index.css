@@ -62,7 +62,9 @@ h2 {
 
 .about-section {
   color: white;
-  margin: 15%;  
+  margin-left: 15%; 
+  margin-right: 15%;
+  font-weight: bold;  
 }
 
 .placeholder-section {
