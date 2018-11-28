@@ -12,7 +12,7 @@ const About = () => {
          </div>
          <div className= "desired-org">
             <h2>What I'm Looking For</h2>
-            I got into coding for both the intellectual challenge and the opportunity to drive change on a grander scale than my previous, local work, in non-profits. I am highly detail-focused and love the precision that good code requires. I am looking to work at a small-mid sized company that focuses on a triple bottom line. Working on a project that combats climate change, has an outdoor industry connection, or just generally does good in the world would be a dream. 
+            <p>I got into coding for both the intellectual challenge and the opportunity to drive change on a grander scale than my previous, local work, in non-profits. I am highly detail-focused and love the precision that good code requires. I am looking to work at a small-mid sized company that focuses on a triple bottom line. Working on a project that combats climate change, has an outdoor industry connection, or just generally does good in the world would be a dream.</p> 
          </div>
          <div className= "why-me">
             <h2>Why Kate?</h2>

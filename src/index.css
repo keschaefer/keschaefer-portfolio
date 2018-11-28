@@ -1,12 +1,6 @@
-.App{
-  /* background-color: #D7EFF1; */
- 
-}
-
 .body {
   font-family: 'Raleway', sans-serif;
-  /* background-color: #fffaf0;
-  background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png"); */
+  color:#333333;
 }
 
 a:link { 
@@ -27,11 +21,13 @@ a:hover {
 
 .header {
   display: flex;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  /* justify-content: flex-end; */
-  background-color: #fffaf0;
-  background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+  margin: 1.5em;
+  justify-content: space-between;
+  border-bottom: solid #333333 1px;
+}
+
+.header p {
+  font-size: 20px;
 }
 
 .menu a {
@@ -44,6 +40,10 @@ h1 {
 
 h2 {
   font-size: 24px;
+}
+
+p {
+  font-size: 15px;
 }
 
 .title-section {
@@ -64,7 +64,7 @@ h2 {
   color: #333333;
   margin-left: 15%; 
   margin-right: 15%;
-  font-weight: bold;  
+   
 }
 
 .placeholder-section {
@@ -77,17 +77,19 @@ h2 {
   border-radius: 50%;
   width: 15em;
   margin: 2em;
-  height:14em;
+  height: 14em;
   align-self:center;
 }
 
 .work-section {
-  margin: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .work-section h1 {
   color: #333333;
 }
+
 
 .ind-project {
   border: 1px solid grey;
@@ -105,3 +107,8 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
 } 
+
+.contact-section {
+  margin-left: 15%;
+  margin-right: 15%;
+}
