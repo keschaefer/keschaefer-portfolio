@@ -17,6 +17,10 @@
     "react-parallax": "^2.0.1",
     "react-scripts": "2.0.5"
   },
+  "engines": {
+    "npm": "6.4.1", 
+    "node": "10.9.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

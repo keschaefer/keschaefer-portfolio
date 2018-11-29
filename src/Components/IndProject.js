@@ -11,8 +11,8 @@ const IndProject = (props) => {
                <p className= "card-text">{project.description}</p>
                <p className= "tech-used">{project.techused}</p>
                <div className= "links">
-                  <button className= "live-site-button"><a target="_blank" href={project.livesite}>Visit {project.title}</a></button>
-                  <a href= {project.github} target="_blank"><FontAwesomeIcon class= "card-icon" icon={['fab', 'github']}/></a>
+                  <button className= "live-site-button"><a target="_blank" rel="noopener noreferrer" href={project.livesite}>Visit {project.title}</a></button>
+                  <a href= {project.github} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon class= "card-icon" icon={['fab', 'github']}/></a>
                </div>
             </div>
          </div>

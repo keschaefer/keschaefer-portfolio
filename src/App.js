@@ -9,9 +9,9 @@ import Placeholder from './Components/Placeholder.js';
 import { Parallax } from 'react-parallax';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faStroopwafel, faCoffee, faPhoneSquare, faEnvelope } from '@fortawesome/free-solid-svg-icons' 
+import { faPhoneSquare, faEnvelope } from '@fortawesome/free-solid-svg-icons' 
 
-library.add(fab, faStroopwafel, faCoffee, faPhoneSquare, faEnvelope)
+library.add(fab, faPhoneSquare, faEnvelope)
 
 class App extends Component {
   constructor() {
@@ -29,7 +29,6 @@ class App extends Component {
     this.setState({
         projects: data
       })
-      console.log(this.state.projects)
   }
 
   render() {
