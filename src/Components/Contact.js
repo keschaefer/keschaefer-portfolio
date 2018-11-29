@@ -9,7 +9,9 @@ const Contact = () => {
          
          <h1>Contact</h1>
          {/* <div className= "contact-list"> */}
-         <span>If you are interested in learning more about me and my work, be in touch!    p: 206 538 8795   e: keschaefer@gmail.com</span>
+         <p>If you are interested in learning more about me and my work, be in touch! </p>
+         <p>
+         p: 206 538 8795   e: keschaefer@gmail.com</p>
             <div className= "contact-icons">
                {/* <span className= "phone-contact">
                   <FontAwesomeIcon class= "icon" icon="phone-square"/>

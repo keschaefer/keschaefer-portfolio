@@ -108,8 +108,8 @@ p {
 }
 
 .work-section {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .work-section h1 {
@@ -118,13 +118,37 @@ p {
 
 .ind-project {
   border: 1px solid grey;
+  border-radius: 5px;
   height: 30em;
-  width: 25em;
+  width: 22em;
   margin: 2em;
   padding:1em;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-content: center;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  max-height: 2em;
+  justify-content: space-around;
+}
+
+/* .live-site-button {
+  color: #333333;
+} */
+
+.card-icon {
+  width: 2em;
+  color: #333333;
+}
+
+.card-icon:hover {
+  color: #2d5986;
 }
 
 .projects-container {
@@ -141,12 +165,17 @@ p {
 .icon {
   width: 2em;
   margin: 1em;
+  color: #333333;
 }
 
 .contact-icons {
   display: flex;
   justify-content: center;
   margin-top: 2em;
+}
+
+.icon:hover {
+  color: #2d5986;
 }
 
 .copyright {

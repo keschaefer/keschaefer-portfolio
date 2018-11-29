@@ -1,15 +1,15 @@
 [
    {
    "title": "Denver Doggie",
-   "description": "Site that clues Denver dog owners in on where their pup is welcome",
+   "description": "Site that clues Denver dog owners in on where their pup is welcome.",
    "techused": "Express, Node.js, JavaScript, React",
-   "image": "https://dl.dropboxusercontent.com/s/9hp3bb0dx2jex6l/doggie.png",
+   "image": "https://dl.dropboxusercontent.com/s/41tu55ocqdhawkq/doggie2.png?dl=0",
    "github": "https://github.com/keschaefer/denver-doggie",
    "livesite": "www.test.com"
  },
  {
    "title": "g-school Inbox",
-   "description": "Basic gmail-style inbox utilizing a school provided API",
+   "description": "Basic gmail-style inbox utilizing a school provided API.",
    "techused": "React, JavaScript, AJAX, Bootstrap",
    "image": "https://dl.dropboxusercontent.com/s/rghullz876kwz04/Inbox.png",
    "github": "https://github.com/keschaefer/inbox-react-app",
@@ -17,7 +17,7 @@
  },
  {
    "title": "g-Food Delivers" ,
-   "description": "Basic online food ordering App.",
+   "description": "Basic online food ordering App, create an order and send.",
    "techused": "Javascript, AJAX, HTML, CSS",
    "image": "https://dl.dropboxusercontent.com/s/ufvm2fpw8kpsbzd/gfood.png",
    "github": "https://github.com/keschaefer/g-food-Delivers",
@@ -25,7 +25,7 @@
  },
  {
    "title": "Pixel Art Maker",
-   "description": "Create your own pixel art!",
+   "description": "Create your own pixel art from a pallet of colors.",
    "techused": "Javascript, HTML, CSS" ,
    "image": "https://dl.dropboxusercontent.com/s/fxr0jgdegz0u3yk/pixel.png",
    "github": "https://github.com/keschaefer/pixel-art-maker-public",
