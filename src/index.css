@@ -67,6 +67,31 @@ p {
    
 }
 
+.tech-list {
+  display: flex;
+}
+
+.tech-list ul {
+  margin-right: 5em;
+}
+
+.resume-button button {
+  border-radius: 5px;
+  border: solid #333333 1px;
+  background-color: #333333;
+  height: 2.5em;
+  width: 10em;
+  margin-top: 2em;
+}
+
+.resume-button a {
+  color: white;
+}
+
+.resume-button a:hover {
+  color: #2d5986;
+}
+
 .placeholder-section {
   text-align: center;
   margin-top: 3em;
@@ -90,7 +115,6 @@ p {
 .work-section h1 {
   color: #333333;
 }
-
 
 .ind-project {
   border: 1px solid grey;
