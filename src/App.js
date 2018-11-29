@@ -6,8 +6,12 @@ import Work from './Components/Work.js';
 import Footer from './Components/Footer.js';
 import Title from './Components/Title.js';
 import Placeholder from './Components/Placeholder.js';
-import { Parallax } from 'react-parallax'; 
+import { Parallax } from 'react-parallax';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faStroopwafel, faCoffee, faPhoneSquare, faEnvelope } from '@fortawesome/free-solid-svg-icons' 
 
+library.add(fab, faStroopwafel, faCoffee, faPhoneSquare, faEnvelope)
 
 class App extends Component {
   constructor() {

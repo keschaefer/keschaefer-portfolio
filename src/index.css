@@ -3,19 +3,19 @@
   color:#333333;
 }
 
-a:link { 
+.menu a:link { 
   color: #333333; 
 }
 
-a​:active { 
+.menu a​:active { 
   color: #333333; 
 }
 
-a:visited {
+.menu a:visited {
   color: #333333;
 }
 
-a:hover { 
+.menu a:hover { 
   color: #2d5986; 
 }
 
@@ -79,6 +79,7 @@ p {
   margin: 2em;
   height: 14em;
   align-self:center;
+  border: solid black 1px;
 }
 
 .work-section {
@@ -111,4 +112,20 @@ p {
 .contact-section {
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.icon {
+  width: 2em;
+  margin: 1em;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.copyright {
+  text-align: right;
+  margin-right: 2em;
 }
