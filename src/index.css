@@ -80,7 +80,7 @@ p {
   border: solid #333333 1px;
   background-color: #333333;
   height: 2.5em;
-  width: 10em;
+  width: 12em;
   margin-top: 2em;
 }
 
@@ -138,10 +138,6 @@ p {
   justify-content: space-around;
 }
 
-/* .live-site-button {
-  color: #333333;
-} */
-
 .card-icon {
   width: 2em;
   color: #333333;
@@ -181,4 +177,9 @@ p {
 .copyright {
   text-align: right;
   margin-right: 2em;
+}
+
+@media only screen and (min-width : 321px) and (max-device-width : 480px) {
+
+
 }

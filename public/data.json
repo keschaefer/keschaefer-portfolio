@@ -3,9 +3,9 @@
    "title": "Denver Doggie",
    "description": "Site that clues Denver dog owners in on where their pup is welcome.",
    "techused": "Express, Node.js, JavaScript, React",
-   "image": "https://dl.dropboxusercontent.com/s/41tu55ocqdhawkq/doggie2.png?dl=0",
+   "image": "https://dl.dropboxusercontent.com/s/1w394523rk7l1yz/Screen%20Shot%202018-12-09%20at%203.41.15%20PM.png",
    "github": "https://github.com/keschaefer/denver-doggie",
-   "livesite": "www.test.com"
+   "livesite": "www.denver-doggie.surge.sh"
  },
  {
    "title": "g-school Inbox",

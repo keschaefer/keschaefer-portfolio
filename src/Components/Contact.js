@@ -8,15 +8,10 @@ const Contact = () => {
       <div className= "contact-section">
          
          <h1>Contact</h1>
-         {/* <div className= "contact-list"> */}
          <p>If you are interested in learning more about me and my work, be in touch! </p>
-         <p>
-         p: 206 538 8795   e: keschaefer@gmail.com</p>
+         <p>phone: 206 538 8795</p>   
+         <p>email: keschaefer@gmail.com</p>
             <div className= "contact-icons">
-               {/* <span className= "phone-contact">
-                  <FontAwesomeIcon class= "icon" icon="phone-square"/>
-                  <p>p: 206.538.8795</p>
-               </span>    */}
                <div className= "email-contact">
                   <a href="mailto:keschaefer@gmail.com" ><FontAwesomeIcon class= "icon" icon="envelope"/></a>
                </div>
