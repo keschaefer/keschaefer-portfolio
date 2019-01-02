@@ -104,7 +104,7 @@ p {
   margin: 2em;
   height: 14em;
   align-self:center;
-  border: solid black 1px;
+  border: solid grey 1px;
 }
 
 .work-section {
@@ -118,14 +118,21 @@ p {
 
 .ind-project {
   border: 1px solid grey;
-  border-radius: 5px;
-  height: 30em;
+  /* border-radius: 5px; */
+  height: 34em;
   width: 22em;
   margin: 2em;
   padding:1em;
   display: flex;
   flex-direction: column;
   align-content: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15em;
 }
 
 .project-title {
@@ -136,6 +143,10 @@ p {
   display: flex;
   max-height: 2em;
   justify-content: space-around;
+}
+
+.live-site-button {
+  width: 12em;
 }
 
 .card-icon {
@@ -180,7 +191,6 @@ p {
   margin-right: 2em;
 }
 
-@media only screen and (min-width : 321px) and (max-device-width : 480px) {
+/* @media only screen and (min-width : 321px) and (max-device-width : 480px) {
 
-
-}
+} */

@@ -1,8 +1,8 @@
 [
  {
-   "title": "inQuizlit (Collaboration)",
-   "description": "Full stack app to post tech interview questions and crowdsource answers.",
-   "techused": "Angular, JavaScript, HTML, CSS, AJAX, Bootstrap, Express, Node, Knex, PostgreSQL",
+   "title": "inQuizlit",
+   "description": "(Collaboration) Full stack app to post tech interview questions and crowdsource answers.",
+   "techused": "Angular, JavaScript, HTML, CSS, AJAX, Express, Node, Knex, PostgreSQL",
    "image": "https://dl.dropboxusercontent.com/s/umv5sbj5clupzb2/Screen%20Shot%202019-01-02%20at%209.41.45%20AM.png",
    "github": "https://github.com/jimbucktoo/inquizlit-frontend",
    "livesite": "http://inquizlit.surge.sh/"
@@ -16,19 +16,19 @@
    "livesite": "https://kates-movies-frontend.surge.sh"
  },
  {
-   "title": "Park Tracker",
-   "description": "Track your progress as you visit America's National Parks",
-   "techused": "React, React-Router, Redux, Javascript, HTML, CSS, Bootstrap, Express, Node, Knex, PostgreSQL",
-   "image": "https://dl.dropboxusercontent.com/s/fxr0jgdegz0u3yk/pixel.png",
-   "github": "https://github.com/keschaefer/pixel-art-maker-public",
-   "livesite": "http://keschaefer-pixel-art.surge.sh/"
- },
- {
   "title": "Denver Doggie",
   "description": "Site that clues Denver dog owners in on where their pup is welcome.",
-  "techused": "React, JavaScript, CSS, HTML, Express, Node",
+  "techused": "React, JavaScript, CSS, HTML, Express, Node, PostgreSQL",
   "image": "https://dl.dropboxusercontent.com/s/1w394523rk7l1yz/Screen%20Shot%202018-12-09%20at%203.41.15%20PM.png",
   "github": "https://github.com/keschaefer/denver-doggie",
   "livesite": "www.denver-doggie.surge.sh"
+ },
+ {
+   "title": "Park Tracker",
+   "description": "Coming Soon - Track your progress as you visit America's National Parks.",
+   "techused": "React, React-Router, Redux, Javascript, HTML, CSS, Bootstrap, Express, Node, Knex, PostgreSQL",
+   "image": "https://via.placeholder.com/200",
+   "github": "",
+   "livesite": ""
  }
 ]
