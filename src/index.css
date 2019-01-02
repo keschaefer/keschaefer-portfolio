@@ -172,6 +172,7 @@ p {
 
 .icon:hover {
   color: #2d5986;
+  transform: scale(1.2);
 }
 
 .copyright {
