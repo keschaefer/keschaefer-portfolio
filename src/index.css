@@ -21,9 +21,13 @@
 
 .header {
   display: flex;
-  margin: 1.5em;
+  padding: 1.5em;
   justify-content: space-between;
   border-bottom: solid #333333 1px;
+  background-color: white;
+  position: sticky;
+  z-index: 99999;
+  top: 0px;
 }
 
 .header p {
@@ -64,7 +68,14 @@ p {
   color: #333333;
   margin-left: 15%; 
   margin-right: 15%;
-   
+}
+
+.about-header {
+  margin-top: 2em;
+}
+
+.about-header p {
+  font-size: 16px;
 }
 
 .tech-list {
@@ -72,7 +83,8 @@ p {
 }
 
 .tech-list ul {
-  margin-right: 5em;
+  margin-right: 7em;
+  font-size: 16px;
 }
 
 .resume-button button {
@@ -118,7 +130,6 @@ p {
 
 .ind-project {
   border: 1px solid grey;
-  /* border-radius: 5px; */
   height: 34em;
   width: 22em;
   margin: 2em;
@@ -156,6 +167,7 @@ p {
 
 .card-icon:hover {
   color: #2d5986;
+  transform: scale(1.2);
 }
 
 .projects-container {
@@ -167,6 +179,15 @@ p {
 .contact-section {
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.contact-header {
+  margin-bottom: 1em;
+}
+
+.contact-text {
+  text-align: center;
+  font-size: 16px;
 }
 
 .icon {

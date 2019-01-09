@@ -9,7 +9,9 @@ import Placeholder from './Components/Placeholder.js';
 import { Parallax } from 'react-parallax';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faPhoneSquare, faEnvelope } from '@fortawesome/free-solid-svg-icons' 
+import { faPhoneSquare, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import image from './IMG_4432.JPG' 
+import image2 from './P7180360.JPG'
 
 library.add(fab, faPhoneSquare, faEnvelope)
 
@@ -18,8 +20,6 @@ class App extends Component {
     super()
       this.state = {
         projects: [],
-        image1: "https://images.pexels.com/photos/34077/pexels-photo.jpg?cs=srgb&dl=big-ben-black-and-white-bridge-34077.jpg&fm=jpg",
-        image2: "https://images.pexels.com/photos/161863/edinburgh-carlton-hill-landscape-scotland-161863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       }
   }
   
@@ -39,14 +39,14 @@ class App extends Component {
           <Title />
           <Placeholder />
           <Parallax
-            bgImage= {this.state.image1} strength= {700}>
+            bgImage= {image} strength= {700}>
             <div style={{height:500}}>
             </div>
           </Parallax>
           <About />
           <Placeholder />
           <Parallax
-             bgImage= {this.state.image2} strength= {700}>
+             bgImage= {image2} strength= {700}>
              <div style={{height: 500}}>
              </div>
           </Parallax>   
