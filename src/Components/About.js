@@ -24,15 +24,13 @@ const About = () => {
                   <li>HTML5</li>
                   <li>React</li>
                   <li>Redux</li>
-               </ul>
-               <ul className="skill-list">
                   <li>Angular</li>
                   <li>Bootstrap</li> 
+               </ul>
+               <ul className="skill-list">
                   <li>Express</li>
                   <li>Node.js</li>
                   <li>Knex</li>
-               </ul>
-               <ul className="skill-list"> 
                   <li>AJAX</li>
                   <li>Heroku</li>
                   <li>PostgreSQL</li>

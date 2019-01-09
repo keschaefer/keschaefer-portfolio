@@ -6,12 +6,12 @@ import Work from './Components/Work.js';
 import Footer from './Components/Footer.js';
 import Title from './Components/Title.js';
 import Placeholder from './Components/Placeholder.js';
+import image from './IMG_4432.JPG' 
+import image2 from './P7180360.JPG'
 import { Parallax } from 'react-parallax';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faPhoneSquare, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import image from './IMG_4432.JPG' 
-import image2 from './P7180360.JPG'
 
 library.add(fab, faPhoneSquare, faEnvelope)
 

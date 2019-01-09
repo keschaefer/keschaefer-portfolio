@@ -21,12 +21,12 @@
   "techused": "React, JavaScript, CSS, HTML, Express, Node, PostgreSQL",
   "image": "https://dl.dropboxusercontent.com/s/1w394523rk7l1yz/Screen%20Shot%202018-12-09%20at%203.41.15%20PM.png",
   "github": "https://github.com/keschaefer/denver-doggie",
-  "livesite": "www.denver-doggie.surge.sh"
+  "livesite": "http://www.denver-doggie.surge.sh"
  },
  {
    "title": "Park Tracker",
    "description": "Coming Soon - Track your progress as you visit America's National Parks.",
-   "techused": "React, React-Router, Redux, Javascript, HTML, CSS, Bootstrap, Express, Node, Knex, PostgreSQL",
+   "techused": "React, React-Router, Redux, Javascript, HTML, CSS, Bootstrap, Express, Node, Knex, PostgreSQL, Bcrypt",
    "image": "https://via.placeholder.com/200",
    "github": "",
    "livesite": ""

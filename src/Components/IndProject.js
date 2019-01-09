@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const IndProject = (props) => {
    return props.projects.map(project => {
-         return(
+      return(
          <div className= "card ind-project rounded" key= {project.title}>
             <p className= "project-title">{project.title}</p>
             <img className= "project-image card-img-top" src= {project.image} alt= "snapshot of live website for project"></img>
@@ -18,8 +18,8 @@ const IndProject = (props) => {
                </div>
             </div>
          </div>
-         )
-      })
-   }  
+      )
+   })
+}  
 
 export default IndProject
