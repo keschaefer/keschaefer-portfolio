@@ -214,6 +214,17 @@ p {
 }
 
 @media only screen and (min-width : 321px) and (max-device-width : 480px) {
+  .tech-list {
+    display: flex;
+  }
 
+  .tech-list ul {
+    margin-right: 5rem;
+    font-size: 16px;
+  }
 
+  .resume-button{
+    display: flex;
+    justify-content: center;
+  }
 }
