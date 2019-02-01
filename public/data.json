@@ -1,19 +1,30 @@
 [
  {
-   "title": "inQuizlit",
-   "description": "(Collaboration) Full stack app to post tech interview questions and crowdsource answers.",
+   "title": "inQuizlit (Collaboration)",
+   "description": "Full stack app to post tech interview questions and crowdsource answers.",
    "techused": "Angular, JavaScript, HTML, CSS, AJAX, Express, Node, Knex, PostgreSQL",
    "image": "https://dl.dropboxusercontent.com/s/umv5sbj5clupzb2/Screen%20Shot%202019-01-02%20at%209.41.45%20AM.png",
    "github": "https://github.com/jimbucktoo/inquizlit-frontend",
-   "livesite": "http://inquizlit.surge.sh/"
+   "livesite": "http://inquizlit.surge.sh/",
+   "link": "inQuizlit"
  },
+ {
+  "title": "SunUp (Capstone)",
+  "description": "SunUp is a full stack application created to assess an organization's financial benefit as a result of solar installation",
+  "techused": "ReactNative, JavaScript, GraphQL, Express, Node, MongoDB",
+  "image": "https://dl.dropboxusercontent.com/s/lfx3f4msku750ju/Login_SunUp_Square.png",
+  "github": "https://github.com/keschaefer/sun-up-front-end",
+  "livesite": "https://drive.google.com/file/d/1ldhHIQLIgfXnZj1JNNfukPoNnsKzoLo8/view?usp=sharing",
+  "link": "SunUp"
+},
  {
    "title": "Kate's Movie Picks" ,
    "description": "Full stack app to display favorite movies, add, edit, and view full details.",
    "techused": "React, React-Router, JavaScript, AJAX, HTML, CSS, Bootstrap",
    "image": "https://dl.dropboxusercontent.com/s/sopvwkofqaw9w1f/Screen%20Shot%202019-01-02%20at%208.56.16%20AM.png",
    "github": "https://github.com/keschaefer/kate_movies_frontend",
-   "livesite": "https://kates-movies-frontend.surge.sh"
+   "livesite": "https://kates-movies-frontend.surge.sh",
+   "link": "Kate's Movies"
  },
  {
   "title": "Denver Doggie",
@@ -21,14 +32,16 @@
   "techused": "React, JavaScript, CSS, HTML, Express, Node, PostgreSQL",
   "image": "https://dl.dropboxusercontent.com/s/1w394523rk7l1yz/Screen%20Shot%202018-12-09%20at%203.41.15%20PM.png",
   "github": "https://github.com/keschaefer/denver-doggie",
-  "livesite": "http://www.denver-doggie.surge.sh"
+  "livesite": "http://www.denver-doggie.surge.sh",
+  "link": "Denver Doggie"
  },
  {
-   "title": "Park Tracker",
-   "description": "Coming Soon - Track your progress as you visit America's National Parks.",
+   "title": "Park Tracker (Coming Soon)",
+   "description": "Track your progress as you visit America's National Parks.",
    "techused": "React, React-Router, Redux, Javascript, HTML, CSS, Bootstrap, Express, Node, Knex, PostgreSQL, Bcrypt",
-   "image": "https://via.placeholder.com/200",
+   "image": "https://dl.dropboxusercontent.com/s/n16xpv5lc2f3cz6/GrandCanyon.jpg",
    "github": "",
-   "livesite": ""
+   "livesite": "",
+   "link": "Park Tracker"
  }
 ]
